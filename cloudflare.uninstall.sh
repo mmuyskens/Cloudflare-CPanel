@@ -16,7 +16,7 @@ rm -rf $INSTALL_DIR/3rdparty/php/$PHPVERSION/lib/php/cloudflare
 
 rm -rf $INSTALL_DIR/Cpanel/API/CloudFlare.pm
 
-rm -rf /root/.cpanel/datastore/cf_api
+rm -rf /root/cf_api
 
 rm -rf $INSTALL_DIR/bin/admin/CloudFlare
 

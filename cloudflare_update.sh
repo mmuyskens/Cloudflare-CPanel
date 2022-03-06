@@ -20,7 +20,7 @@ while getopts ":f" opt; do
 done
 
 # Get the host key
-HOST_KEY=`cat /root/.cpanel/datastore/cf_api`
+HOST_KEY=`cat /root/cf_api`
 
 # Check HOST_KEY exists
 if [ "$HOST_KEY" = "" ]; then

@@ -40,4 +40,4 @@ NOTE: This will not remove zones or users from Cloudflare that have been registe
 
 The following set of commands will download the necessary files, execute the uninstall script and ultimately remove the uninstall script as well:
 
-`bash <(curl -s https://raw.githubusercontent.com/cloudflare/CloudFlare-CPanel/master/cloudflare.uninstall.sh) && rm -f cloudflare.uninstall.sh`
+`bash <(curl -s https://raw.githubusercontent.com/mmuyskens/Cloudflare-CPanel/master/cloudflare.uninstall.sh) && rm -f cloudflare.uninstall.sh`

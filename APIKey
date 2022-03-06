@@ -6,7 +6,7 @@ use Cpanel::Logger               ();
 use Cpanel::PwCache              ();
 use Cpanel::LoadFile             ();
 
-my $HOST_API_KEY_FILE = "/root/.cpanel/datastore/cf_api";
+my $HOST_API_KEY_FILE = "/root/cf_api";
 
 my $stdin = <STDIN>;
 chomp $stdin;

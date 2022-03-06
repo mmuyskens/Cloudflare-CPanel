@@ -42,7 +42,7 @@ sub getHostApiKey {
 
     # https://documentation.cpanel.net/display/SDK/Guide+to+API+Privilege+Escalation+-+Application+Files
     # Makes a call to /usr/local/cpanel/bin/admin/CloudFlare/APIKey which runs as root to obtain
-    # the host API key stored at /root/.cpanel/datastore/cf_api.
+    # the host API key stored at /root/cf_api.
 
     my $admin_bin_call = Cpanel::Wrap::send_cpwrapd_request(
            'namespace' => 'CloudFlare',

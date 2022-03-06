@@ -198,7 +198,7 @@ install -d $INSTALL_DIR/Cpanel/API
 install $SOURCE_DIR/CloudFlare.pm $INSTALL_DIR/Cpanel/API
 
 # Install host key file
-echo $HOST_KEY > /root/.cpanel/datastore/cf_api
+echo $HOST_KEY > /root/cf_api
 chmod 600 /root/.cpanel/datastore/cf_api
 
 # Install the API key CPanel adminbin and config

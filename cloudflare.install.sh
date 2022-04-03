@@ -226,6 +226,9 @@ install -d $INSTALL_DIR/3rdparty/php/$PHPVERSION/lib/php/cloudflare/src
 ln -s /usr/local/cpanel/base/frontend/paper_lantern/cloudflare /usr/local/cpanel/base/frontend/jupiter/cloudflare
 /usr/local/cpanel/scripts/install_plugin $SOURCE_DIR/installers/cloudflare_simple.tar.bz2 --theme jupiter
 
+# force add to paper lantern? da fuq?
+/usr/local/cpanel/scripts/install_plugin $SOURCE_DIR/installers/cloudflare_simple.tar.bz2 --theme=paper_lantern
+
 # Copy cloudflare_update.sh to where the cron expects it to be
 install $SOURCE_DIR/cloudflare_update.sh $INSTALL_DIR/bin
 

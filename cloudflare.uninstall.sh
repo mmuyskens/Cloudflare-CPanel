@@ -24,6 +24,7 @@ rm -rf $INSTALL_DIR/bin/admin/CloudFlare
 rm -rf $INSTALL_DIR/bin/cloudflare_update.sh
 
 rm -f $INSTALL_DIR/base/frontend/paper_lantern/dynamicui/dynamicui_cloudflare*.conf
+rm -f $INSTALL_DIR/base/frontend/jupiter/dynamicui/dynamicui_cloudflare*.conf
 
 ## Remove post update call
 cfonupgrade=`grep -F "cloudflare_update" /scripts/postupcp`
